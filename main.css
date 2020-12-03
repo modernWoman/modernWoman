@@ -230,3 +230,18 @@ textarea{
 .a:last-child {
   margin-bottom: 60px;
 }
+@media screen and (min-width:512px) and (max-width:1024px){
+	
+	body{
+	background-color: #6760A2;
+}
+	.last{
+	width:30%;
+	border-radius: 50px;
+	box-sizing: border-box;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    text-align: center;
+	background: #CDC9EC;
+}
+}
