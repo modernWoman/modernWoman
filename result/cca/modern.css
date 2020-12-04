@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+		font-family:'MaruBuri'; /*글꼴*/
+		src: local('MaruBuri-Regular'),
+			url('MaruBuri-Regular.otf') format('otf'),
+			url('MaruBuri-Regular.ttf') format('truetype');
+	}
+@font-face{
+		font-family:'HSBombaram3.0'; /*글꼴*/
+		src: local('HSBombaram3.0'),
+			url('HSBombaram3.0.otf') format('otf'),
+			url('HSBombaram3.0.ttf') format('truetype');
+	}
+@font-face {
+    font-family: 'BME';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/BMEuljiro10yearslater.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+font-family: 'BMHANNA';
+src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+font-weight: normal;
+font-style: normal;
+}
+ a:link { color: black; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: black; text-decoration: none;}
+#circleDark{
+  background-color: #242139;
+  width:10px;
+  height:10px;
+  border-radius: 50%;
+  float:left;
+  margin-left:10px;
+
+}
+#circleLight{
+  background-color: #E6E4FF;
+  width:10px;
+  height:10px;
+  border-radius: 50px;
+  margin-left:10px;
+  float:left;
+}
+.questionProgressbar {
+  margin: 0 12.5% 20px;
+  width: 75%;
+  height: 15px;
+  border: 0px solid #ddd;
+  border-radius: 20px;
+}
