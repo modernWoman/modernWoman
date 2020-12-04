@@ -270,7 +270,7 @@ textarea{
 }
 .img{
 	padding-top: 30vh;
-	height:50vh;	
+	height:40vh;	
 }
 	#mainmainbox{
 	padding-top:0;
@@ -294,9 +294,8 @@ textarea{
 	margin-top:0;
 	height:90vh;
 	margin-bottom:0;
-	max-width:800px;
-	margin-left:auto;
-	margin-right:auto;
+	width:60vw;
+	max-width:700px;
 	position:relative;
 	border: 0px solid red;
 	float: center;
