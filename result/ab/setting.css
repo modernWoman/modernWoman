@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+html, body { 
+  overflow-x: hidden;
+}    
+body, p, input {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+body{
+	background-color: #242139;
+}
+/* HTML5 display-role reset for older browsers */
+header, footer, section { 
+  display: block; 
+}
+a {
+  text-decoration: none;
+}
+::selection {
+  background: #333; 
+  color: rgb(0, 205, 245);
+}
+button {
+  border: none;
+  font-size: 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+#mainbox{
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:0;
+	height:100vh;
+	margin-bottom:0;
+	max-width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	border: 0px solid red;
+	float: center;
+	overflow: auto;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #6760A2;
+}
+#mainbox2{
+	padding-top:0;
+	padding-bottom:0;
+	margin-top:0;
+	height:220vh;
+	margin-bottom:0;
+	max-width:650px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	border: 0px solid red;
+	float: center;
+	overflow: auto;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #6760A2;
+}
+.mainonly{
+	float: center;
+	overflow: auto;
+	text-align: center;
+	vertical-align: middle;
+	display:flex;
+}
+p1{
+	color:#CDC9EC;
+	font-family: "HSBombaram3.0";
+}
+p2{
+
+	font-family: "HSBombaram3.0";
+}
+p3{
+
+	font-family: "BMHANNA";
+}
+p4{
+
+	font-family: "BME";
+}
+p5{
+	color:#CDC9EC;
+	font-family: "HSBombaram3.0";
+}
+.tw {
+    background-image: url("main.png");
+}
+.fb {
+    background-image: url("main.png");
+}
+.nv {
+    background-image: url("main.png");
+}
