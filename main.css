@@ -1,11 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 p{
-	text-align: right;
+
 	margin-bottom:-5%;
 	line-height: 2rem;
 	word-break: keep-all;
 }
+
 .pid{
 	text-align: right;
 	margin-bottom:-5%;
@@ -247,7 +248,11 @@ line-height: 2.5rem;
 }
 
 @media screen and (min-width:512px) and (max-width:1024px){
-	
+	p{
+		line-height: normal;
+		text-align: center;
+		font-size:2rem;
+	}
 	body{
 	background-color: #6760A2;
 }
@@ -258,6 +263,7 @@ line-height: 2.5rem;
   width: 80%;
   border-radius: 20px;
   border: 0px solid #ddd;
+	line-height: normal;
 }
 
 .ex{
@@ -276,7 +282,7 @@ line-height: 2.5rem;
   box-sizing: border-box;
   margin-bottom: 30px;
   font-size: 3rem;
-  text-align: left;
+  text-align: center;
 	line-height: normal;
 }
 .foot{
@@ -290,11 +296,21 @@ line-height: 2.5rem;
 line-height: normal;
   box-sizing: border-box;
   margin-bottom: 30px;
+		text-align: center;
   font-size: 4rem;
 		
 	
 }
+.box {
+  font-family: "MaruBuri";
+  margin: 0 auto;
+  margin: 10px;
+  width: 80%;
+  border-radius: 20px;
+  border: 0px solid #ddd;
+	word-break: keep-all;
 
+}
 .a {
   background: #CDC9EC;
   margin: 20px 10% 0 6%;
@@ -322,5 +338,97 @@ textarea{
 	margin-bottom:-5%;
 	padding-right:5%;
 	font-size: 3rem;
+}
+
+.r1{
+	box-sizing: border-box;
+  font-size: 3rem;
+  text-align: center;
+	line-height: normal;
+}
+
+.circle{
+	background-color: #E6E4FF;
+  width:70vw;
+  height:70vw;
+  border-radius: 50%;
+  float:center;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	text-overflow:auto;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	border:1px solid black;
+	line-height: normal;
+}
+.rname{
+	box-sizing: border-box;
+  font-size: 4rem;
+  text-align: center;
+	line-height: normal;
+}
+.rname2{
+	box-sizing: border-box;
+  font-size: 3rem;
+  text-align: center;
+	margin-bottom:20px;
+	line-height: normal;
+}
+.rcs{
+	box-sizing: border-box;
+  font-size: 3rem;
+  text-align: center;
+	line-height: normal;
+	
+}
+.r2{
+	box-sizing: border-box;
+  font-size: 3rem;
+  text-align: left;
+	line-height: 4rem;
+}
+.r22{
+	box-sizing: border-box;
+  font-size: 3rem;
+  text-align: left;
+	margin-left:10%;
+	font-family:'MaruBuri';
+}
+.box2{
+	margin-top:5vh;
+	display: flex;
+	flex-wrap: wrap;
+	item-align: center;
+	vertical-align: middle;
+	justify-content: space-around;
+	
+}
+	.last{
+	width:30%;
+	border-radius: 50px;
+	box-sizing: border-box;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-align: center;
+	background: #CDC9EC;
+}
+	
+.imgbox{
+  margin-top:20px;
+  font-family: "BMHANNA";
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+    overflow: hidden;
+	text-align: center;
+	padding-bottom:1vh;
+  font-size: 3rem;
+  width: 26vh;
+  height:19vh;
+  border-radius: 20px;
+  border: 1px solid #242139;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
 }
 }
