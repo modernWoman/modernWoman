@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<link href="modern.css" rel="stylesheet" type="text/css">
+<link href="setting.css" rel="stylesheet" type="text/css">
+<link href="main.css" rel="stylesheet" type="text/css">
+<title>modernwoman</title>
+</head>
+
+<body>
+	<div id="mainbox">
+	<div class="container">
+		<div class='questionProgressbar'>
+			<div id='circleLight'></div><div id='circleLight'></div><div id='circleLight'></div>
+		  <div id='circleLight'></div><div id='circleLight'></div><div id='circleLight'></div><div id='circleLight'></div><div id='circleLight'></div>
+		</div>
+		<div class="q box"></div>
+		<div class="q box">당신의 전생의 삶을 돌이켜 보았을 때 당신은 어떠한 사람으로 기록될 것 같나요? (주관식)</div>
+		
+		<div class="q box"></div>
+		<textarea name='ta1' wrap='off'></textarea>
+		</div>
+		<div class="q box"> 
+		<br><br>
+		  <u><p class="pid" onClick="random()">다음-></p></u></div>
+	<p id="one"></p>
+		</div>
+
+
+<script>
+ function random(){
+
+document.getElementById("one").innerHTML = Math.floor(Math.random() * 4);
+	 if(document.getElementById("one").innerHTML==0){
+		 	 location.href = "result/bb/khr.html"; 
+	 }else if(document.getElementById("one").innerHTML==1){
+		 	 location.href = "result/bb/jcs.html"; 
+	 }else if(document.getElementById("one").innerHTML==1){
+		 	 location.href = "result/bb/jjm.html"; 
+	 }else{
+
+		 location.href = "result/bb/hjs.html"; 
+	 }
+ }
+
+</script>
+</head>		
+	</div>
+		</div>
+</body>
+</html>
