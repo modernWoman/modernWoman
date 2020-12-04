@@ -3,6 +3,8 @@
 p{
 	text-align: right;
 	margin-bottom:-5%;
+	line-height: 2rem;
+	word-break: keep-all;
 }
 .pid{
 	text-align: right;
@@ -11,25 +13,16 @@ p{
 	font-size: 1.5rem;
 }
 textarea{
-	height:30vh;
-	width:90%;
+  wrap:hard;
+  font-family: "MaruBuri";
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+  border: 0px solid #ddd;
+	background-color: #CDC9EC;
 }
 
-@media screen and (min-width:512px) and (max-width:1024px){
-	
-	body{
-	background-color: #6760A2;
-}
-	.last{
-	width:30%;
-	border-radius: 50px;
-	box-sizing: border-box;
-    margin-bottom: 30px;
-    font-size: 1.3rem;
-    text-align: center;
-	background: #CDC9EC;
-}
-}
 	
 #mainmainbox{
 	padding-top:0;
@@ -99,6 +92,8 @@ textarea{
   width: 80%;
   border-radius: 20px;
   border: 0px solid #ddd;
+	word-break: keep-all;
+
 }
 .st{
 	width:30%;
@@ -159,6 +154,7 @@ textarea{
 	box-sizing: border-box;
   font-size: 1.3rem;
   text-align: left;
+	line-height: 2rem;
 }
 .r22{
 	box-sizing: border-box;
@@ -224,10 +220,11 @@ textarea{
 	margin-right:10px;
 }
 .q {
-
+line-height: 2.5rem;
   box-sizing: border-box;
   margin-bottom: 30px;
   font-size: 1.7rem;
+	
 }
 
 .a {
