@@ -9,40 +9,6 @@
 <title>modernwoman</title>
 	<script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 
-<script>
-
-    Kakao.init('0ea6e0eb3f5dacc04fa585f61b01035b');
-
-    function sendLink() {
-
-        Kakao.Link.sendTalkLink({
-
-            label: '[C.m.A API 이야기 QR코드 만들기(QR Code Generator)] QR코드 만들기(QR Code Generator \n C.m.A API 이야기(http://chongmoa.com) \n어쩌구 저쩌구 사이트 내용 ..............',
-
-            webLink: {
-
-                text: 'C.m.A API 이야기 QR코드 만들기(QR Code Generator)',
-
-                url: 'https://modernwoman.github.io/'
-
-            },
-
-            image: { // 80 * 80 이상
-
-                src: 'https://modernwoman.github.io/main.png',
-
-                width: '145',
-
-                height: '151'
-
-            }
-
-        });
-
-    }
-
-</script>
-
 
 
 </head>
@@ -55,8 +21,40 @@
 		<div class="box"><image src="main.png" class="img"></image></div>
 	  <div class="st box"><a href="moderns.html">시작하기</a></div>
 		
-		<a href="javascript:sendLink()">카카오톡 공유</a>
-		
+		<a id="kakao-link-btn" href="javascript:sendLink()">
+  <img
+    src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png"
+  />
+</a>
+<script type='text/javascript'>
+//<![CDATA[
+Kakao.init('0ea6e0eb3f5dacc04fa585f61b01035b');
+Kakao.Link.createTalkLinkButton({
+container: '#kakao-link-btn',
+label: '썸네일 이미지 위에 뜰 텍스트 입니다.',
+image: {
+
+ 
+
+src: '썸네일 이미지 경로',
+width: '300',
+height: '200'
+},
+webButton: {
+text: '트라이트라이',
+url: '위에서 플랫폼 추가하실 때 입력한 your site url'
+}
+});
+//]]>
+</script>
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+<a id="kakao-link-btn" href="javascript:;">
+    <img src="//dev.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_small.png"/>
+</a>
+
+
+
 		
 	</div>
 	</div>
