@@ -3,6 +3,8 @@
 p{
 	text-align: right;
 	margin-bottom:-5%;
+	line-height: 2rem;
+	word-break: keep-all;
 }
 .pid{
 	text-align: right;
@@ -11,8 +13,14 @@ p{
 	font-size: 1.5rem;
 }
 textarea{
-	height:30vh;
-	width:90%;
+  wrap:hard;
+  font-family: "MaruBuri";
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 20px;
+  border: 0px solid #ddd;
+	background-color: #CDC9EC;
 }
 
 @media screen and (min-width:512px) and (max-width:1024px){
@@ -99,6 +107,8 @@ textarea{
   width: 80%;
   border-radius: 20px;
   border: 0px solid #ddd;
+	word-break: keep-all;
+
 }
 .st{
 	width:30%;
@@ -159,6 +169,7 @@ textarea{
 	box-sizing: border-box;
   font-size: 1.3rem;
   text-align: left;
+	line-height: 2rem;
 }
 .r22{
 	box-sizing: border-box;
@@ -224,10 +235,11 @@ textarea{
 	margin-right:10px;
 }
 .q {
-
+line-height: 2.5rem;
   box-sizing: border-box;
   margin-bottom: 30px;
   font-size: 1.7rem;
+	
 }
 
 .a {
