@@ -6,7 +6,6 @@
 <link href="modern.css" rel="stylesheet" type="text/css">
 <link href="setting.css" rel="stylesheet" type="text/css">
 <link href="main.css" rel="stylesheet" type="text/css">
-<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 <title>modernwoman</title>
 
 	
@@ -47,20 +46,36 @@
 	</div>
 		<div class="q box"></div>
 	  <div class="box2">
-		<div class="last box"><a href="index.html">&lt;-시작하기</a></div>
+		<div class="last box"><a href="../../index.html">시작하기</a></div>
 	
-	<div class="last box"><a href="ref.docx" download>참고 및 출처</a></div>
-	
-	<div class="last box">공유하기-></div>
+	<div class="last box"><a href="../../ref.pdf" download>참고 및 출처</a></div>
+		
+
+			<div class="last box"><a href="#urlCopyBtn" class="urlCopyBtn">공유하기</a></div>
 	</div>
 
 	<div class="foot">제작: '모던리라이트(modern-re-light)'<br>테스트의 내용 및 일러스트 저작권은 모두 '모던리라이트'에 있습니다.
 </div>
+		<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+
+
+
+<input type="text" value="https://modernwoman.github.io/" id="urlAddress" style="display:none;">
+<script type="text/javascript">
+$('.urlCopyBtn').click(function(){	
+	var urlAddress= $('#urlAddress');
+	urlAddress.css('display','block').select();
+	document.execCommand("Copy");
+	urlAddress.css('display','none');
+	alert('URL 주소가 복사 되었습니다');	
+	return false;
+});
+</script>
 		
 		
-	
-</div>
+		</div>
+		</div>
+	</div>
 		</div>
 </body>
-<script src="js/share.js"></script>
 </html>
