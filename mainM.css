@@ -238,7 +238,13 @@ textarea{
 }
 
 @media screen and (min-width:512px) and (max-width:1024px){
-	
+	.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px 0 25px 0;
+  width:80%;
+  min-width: 80%;
+}
 	body{
 	background-color: #6760A2;
 }
@@ -337,5 +343,6 @@ textarea{
     font-size: 1.5rem;
     text-align: center;
 	background: #CDC9EC;
+	width:50%
 }
 }
